@@ -41,7 +41,6 @@ section:not(:nth-of-type(5)) a{
   font-size:1rem;
   border:2px solid #9e9e9e;
   padding:1rem 1.625rem;
-  margin:1em 0 1em;
   text-transform: uppercase;
 }
 section:nth-of-type(odd) a{
@@ -99,10 +98,10 @@ section h1{
   text-transform: uppercase;
 }
 section:nth-of-type(odd) h1{
-  color:rgb(255, 255, 255);
+  color:white;
 }
 section:nth-of-type(even) h1{
-  color:rgb(55, 43, 43);
+  color:black;
 }
 
 /* <!-------------------------------------------> */
@@ -113,7 +112,6 @@ section article h2{
   font-size: 10.125rem;
   line-height:12.9rem;
   letter-spacing:-0.02rem;
-  text-transform: uppercase;
   color: #9e9e9e;
   opacity:0.2;
   text-align: right;
@@ -126,7 +124,7 @@ section:nth-of-type(even) article h2{
 /* <!------------HEADER----------------> */
 header{
   text-align: center;
-  height: 205vh;
+  height: 235vh;
 }
 header p{
   padding-top:2.5rem;
@@ -192,14 +190,11 @@ section article p:nth-of-type(2){
 section:not(:nth-of-type(5)) article a{
   margin-top:5rem;
 }
-section article h2{
-  margin-top:2.5rem;
-}
 
 /* <!------------MAIN SECTTION 2 : ROLLR ----------> */
 section:nth-of-type(2){
   background: url(../img/portfolio3.png) no-repeat center/cover;  
-  height:110vh;
+  height:123vh;
 }
 
 /* <!------------MAIN SECTTION 3 : GALITO'S ----------> */
@@ -211,13 +206,13 @@ section:nth-of-type(3){
 /* <!------------MAIN SECTTION 4 : TRETTO ----------> */
 section:nth-of-type(4){
   background: url(../img/portfolio5.png) no-repeat center/cover;  
-  height:110vh;
+  height:123vh;
 }
 
 /* <!----------MAIN SECTTION 5 : What more?-------> */
 section:nth-of-type(5){
   background-color: black;
-  height:105vh;
+  height: 110vh;
 }
 section:nth-of-type(5) h1{
   font-size: 11.25rem;
@@ -236,7 +231,7 @@ section:nth-of-type(5) article{
 section:nth-of-type(5) article p{
   font-size: 1.375rem;
   line-height:2.5rem;
-  margin-top: 11rem;
+  margin-top: 9.375rem;
   letter-spacing: 0.01em;
 }
 section:nth-of-type(5) article a{
@@ -244,7 +239,7 @@ section:nth-of-type(5) article a{
   font-family: 'Work Sans', sans-serif; 
   font-size: 3.75rem;
   letter-spacing: -0.06em;
-  margin-top: 5rem;
+  margin-top: 4.375rem;
 }
 section:nth-of-type(5) article a:hover{
   text-decoration: underline;
@@ -253,7 +248,6 @@ section:nth-of-type(5) article a:hover{
 /* <!---------------------FOOTER----------------------> */
 footer{
   height:176vh;
-  padding-top:6.25rem;  
   position: relative;
 }
 footer a{
@@ -263,19 +257,23 @@ footer a{
   text-align: center;
   font-size: 10rem;
   line-height: 13.125rem;
+  margin-top:14.375rem;
+}
+
+footer a:nth-of-type(1n +2){
   margin-top:9.375rem;
 }
+
 footer a:hover{
   text-decoration: underline;
 }
 
 /* -------- PULSING HEART --------- */
 footer article{
-  bottom:2rem;
+  bottom:8.125rem;
   left:50%;
   position: absolute;
   transform: scale(0.2);
-  margin-bottom:4rem;
 }
 #wrapper {
 	position: absolute;
